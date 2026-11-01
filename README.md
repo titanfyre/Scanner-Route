@@ -2,6 +2,17 @@
 
 **Device-specific USB HID barcode scanner routing for Windows 10/11 x64.** Capture scans from one selected scanner, validate a prefix and append accepted values to a local CSV file while normal keyboard and mouse input keep working.
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full driver version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full driver version without the demo time limit**, and mention **Scanner Route**.
+>
+> The demo limit belongs to **Interceptor Keyboard & Mouse**, the driver used by this project. Ask for pricing and the appropriate license / activation instructions; the application or wrapper source keeps its existing license.
+<!-- full-version-contact:end -->
+
 ![Scanner Route desktop application](docs/app.png)
 
 [Download Windows demo](https://github.com/titanfyre/Scanner-Route/releases/latest) · [All Titan input tools](https://github.com/titanfyre/Titan-Input-Tools)
