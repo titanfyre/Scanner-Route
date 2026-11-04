@@ -31,13 +31,19 @@ Accepted scans appear in the window; only the latest 32 are retained there. CSV 
 
 ## Demo and commercial use
 
-The application sources are MIT licensed. The bundled **Microsoft-signed kernel filter driver** has a **one-hour demo allowance per Windows boot**, beginning at its first capture. Restarting this application does not reset the driver allowance. The driver source is not included.
+The application sources are MIT licensed. The bundled **Microsoft-signed kernel filter driver** has a **one-hour demo allowance per Windows boot**, beginning at its first capture. Restarting this application does not reset the driver allowance. Demo/evaluation driver source is documented in [driver/README.md](driver/README.md).
 
 For a **production driver bundle without the demo timer**, business deployment, OEM integration or support, add **`titancsa`** on Discord: **Friends → Add Friend**, then mention **Scanner Route**. The app's **Copy Discord handle** button copies the handle. Prices and redistribution/support terms are agreed before purchase; no payment is collected by this app.
 
 The production build uses the matching licensed Keyboard & Mouse SDK and driver. A driver key is activated using the private bundle's activation tool; a portfolio application-access key does not activate a kernel driver. Driver signing does not sign this application EXE or imply Microsoft endorsement.
 
 ## Build and verify
+
+The matching Interceptor-Keyboard-Mouse demo driver source is available; see
+[driver/README.md](driver/README.md) for build instructions and separate
+evaluation-source terms. Those terms apply to Titan-authored driver code. Third-party
+source licenses and existing application/SDK licenses remain applicable. Full/commercial
+implementation and private signing or activation material are excluded.
 
 Visual Studio 2022 C++ tools, CMake 3.20+ and Windows SDK are required.
 
