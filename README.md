@@ -3,7 +3,13 @@
 <!-- simple-start:start -->
 Check and save barcode scans to a CSV file.
 
-**Start here.** Try the preview, then connect a supported USB scanner for a live test.
+**Start here.** Extract the [Windows ZIP](https://github.com/titanfyre/Scanner-Route/releases/latest). Open PowerShell in that folder and run the command below.
+
+```powershell
+.\ScannerRoute.exe --preview
+```
+
+A preview lists sample barcodes. [See the first-run guide](https://titancsa.github.io/guides/first-run/#scanner).
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
