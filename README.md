@@ -1,13 +1,16 @@
 # Scanner Route
 
+<!-- simple-start:start -->
+Check and save barcode scans to a CSV file.
+
+**Start here.** Try the preview, then connect a supported USB scanner for a live test.
+<!-- simple-start:end -->
+
 <!-- full-version-contact:start -->
 > [!IMPORTANT]
-> **Get the version without the one-hour demo limit**
+> **Version without the one-hour demo limit**
 >
-> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
-> Send the project name and ask for its full version. TitanCSA will share the purchase details privately.
->
-> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+> In [Discord](https://discord.com/app), choose **Add Friend** and enter **`titancsa`**. Send the project name. Purchase details are sent privately.
 <!-- full-version-contact:end -->
 
 **Device-specific USB HID barcode scanner routing for Windows 10/11 x64.** Capture scans from one selected scanner, validate a prefix and append accepted values to a local CSV file while normal keyboard and mouse input keep working.
@@ -61,5 +64,3 @@ Compile `Interceptor/Interceptor.cpp` with the app. To use your privately suppli
 Version 0.1 supports USB HID keyboard-wedge scanners configured for US ASCII input and Enter termination. Serial/COM scanners, arbitrary international keyboard layouts, GS1 binary control characters, network CSV shares and HTTP/ERP connectors are not implemented. Captured scan values stay local; no scanner data is sent to the administration website. Use only on systems/devices you are authorized to control. You are responsible for lawful use and applicable third-party rules. See `LICENSE` and `docs/BINARY-LICENSE.txt` for the distinct source and driver terms.
 
 ## Commercial integration and support
-
-
